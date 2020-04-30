@@ -1,0 +1,51 @@
+.about-page {
+  position: relative;
+
+  a {
+    color: $primary-color;
+  }
+
+  b {
+    font-weight: bold;
+  }
+
+  &__heading {
+    margin: 0 0 1rem 0;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  &__sub-heading {
+    margin: 0 0 1rem 0;
+    font-weight: bold;
+  }
+
+  &__row {
+    margin: 0 0 3rem 0;
+  }
+
+  &__text {
+    margin: 0 0 1rem 0;
+  }
+
+  &__list {
+    position: relative;
+
+    &-item {
+      position: relative;
+      margin: 0 0 0.8rem 0;
+      font-weight: bold;
+      color: $primary-color;
+      font-size: 14px;
+      padding: 0 0 0 10px;
+
+      &::before {
+        content: '-';
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: #000;
+      }
+    }
+  }
+}
