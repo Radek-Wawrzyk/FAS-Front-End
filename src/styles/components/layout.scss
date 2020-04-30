@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: $accent;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+
+  &--small {
+    max-width: 800px;
+  }
+
+  &--extra-small {
+    max-width: 600px;
+  }
+}
+
+.no-results {
+  text-align: center;
+  padding: 2rem 0;
+  color: $text-color--medium;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.main-page {
+  padding: 7rem 0 0 0;
+}
+
+.dashboard-inner {
+  background-color: $accent;
+}
+
+// Global dashboard styles
+
+.dashboard-page {
+  position: relative;
+  padding: 0 0 2rem 0;
+
+  &__heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 0 2rem 0;
+  }
+}

@@ -1,0 +1,21 @@
+.not-found {
+  position: relative;
+  text-align: center;
+  height: calc(100vh - 70px - 7rem);
+  display: flex;
+  align-items: center;
+
+  &__heading {
+    font-size: 10rem;
+    font-weight: bold;
+    line-height: 1;
+    // font-size: 
+  }
+
+  &__text {
+    color: $primary-color;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 0 1rem 0;
+  }
+}

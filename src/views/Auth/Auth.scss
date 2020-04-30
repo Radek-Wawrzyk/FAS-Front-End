@@ -1,0 +1,48 @@
+.auth-page {
+  position: relative;
+
+  &__logo {
+    font-size: 32px;
+    margin: 0 auto 4rem auto;
+    display: block;
+    text-align: center;
+
+    span {
+      color: $primary-color;
+    }
+  }
+
+  &__form {
+    display: block;
+    max-width: 500px;
+    width: 100%;
+    margin: 200px auto;
+    background-color: $accent--light;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 4px;
+
+    &-group {
+      position: relative;
+      margin: 0 0 2rem 0;
+    }
+
+    &-error {
+      position: absolute;
+      top: calc(100% + 5px);
+      left: 5px;
+      font-size: 12px;
+      color: $danger;
+    }
+  }
+}
+
+// Media
+
+@media screen and (max-width: 768px) {
+  .auth-page {
+    &__form {
+      margin: 0rem 0 0 0;
+    }
+  }
+}

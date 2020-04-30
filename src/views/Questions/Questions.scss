@@ -1,0 +1,12 @@
+.questions-page {
+  &__listing {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__back {
+    margin: 0 auto 2rem auto;
+    display: block;
+  }
+}

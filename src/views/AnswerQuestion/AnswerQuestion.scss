@@ -1,0 +1,11 @@
+.answer-question {
+  position: relative;
+
+  &__row {
+    margin: 0 0 2rem 0;
+
+    span {
+      color: $primary-color;
+    }
+  }
+}

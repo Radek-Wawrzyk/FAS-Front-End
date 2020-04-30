@@ -1,0 +1,57 @@
+.information {
+  position: relative;
+  text-align: center;
+
+  &__question {
+    position: relative;
+    font-weight: 900;
+    font-size: 1.4rem;
+    margin: 0 0 4rem 0;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: -2rem;
+      height: 1px;
+      width: 50%;
+      transform: translateX(-50%);
+      background-color: $text-color--light;
+
+    }
+  }
+
+  &__answer {
+    color: $primary-color;
+    font-size: 1.2rem;
+    font-weight: 900;
+  }
+}
+
+.feedback {
+  position: relative;
+  text-align: center;
+  margin: 4rem 0;
+
+  &__heading {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 0 0 1.5rem 0;
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .el-button {
+      margin: 0 1rem;
+      width: 40px;
+      height: 40px;
+    }
+
+    [class*=" el-icon-"], [class^=el-icon-] {
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.sub-header {
+  position: relative;
+  width: 100%;
+  padding: 0 0 5rem 0;
+  text-align: center;
+
+  &__title {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin: 0 0 1rem 0;
+    color: $text-color;
+  }
+
+  &__text {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: $text-color--normal;
+  }
+}
+
+// Media
+
+@media screen and (max-width: 768px) {
+  .sub-header {
+    &__title {
+      font-size: 1.6rem;
+    }
+
+    &__text {
+      font-size: 1.2rem;
+    }
+  }
+}
