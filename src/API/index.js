@@ -4,7 +4,7 @@ import { Notification } from 'element-ui';
 
 // Setup global axios instance
 const request = axios.create({
-  baseURL: 'http://localhost:4000/api/',
+  baseURL: 'https://fas-server-api.herokuapp.com/api/',
 });
 
 // Global handling for request - setting Bearer token for each request
