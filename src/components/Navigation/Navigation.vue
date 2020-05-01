@@ -94,11 +94,11 @@ export default {
         link: "/about"
       },
       {
-        name: "dashboard",
+        name: "Dashboard",
         link: "/dashboard"
       },
       {
-        name: "Ask an question",
+        name: "Ask a question",
         link: "/ask"
       },
     ]

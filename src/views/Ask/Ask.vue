@@ -1,7 +1,7 @@
 <template>
   <div class="page ask-page">
     <sub-header
-      title="Ask an question"
+      title="Ask a question"
       text="If you have any question, feel free to submit the form!"
     />
     <div class="container container--small">
